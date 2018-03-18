@@ -11,7 +11,10 @@
     font-size: 18px;
     font-family: "Lato", sans-serif;
 }
-.botonAzul:hover {background-color: #46a049;}
+.botonAzul:hover {
+    background-color: #black;
+    color: white;
+}
 
 .botonVerde{
     color: white;
@@ -26,7 +29,10 @@
     font-size: 18px;
     font-family: "Lato", sans-serif;
 }
-.botonVerde:hover {background-color: #ADFF2F;}
+.botonVerde:hover {
+    background-color: #ADFF2F;
+    color: white
+}
 
 h1{
     font-family: "Lato", sans-serif;
@@ -59,6 +65,7 @@ p{
 
 button:hover:not(.active) {
     background-color: #ADFF2F;
+    color: white;
 }
 
 
@@ -87,6 +94,12 @@ button:hover:not(.active) {
     padding: 0px;
 }
 
+.iconos--leer{
+    color:  #3366ff;
+    display: block;
+    margin: auto;
+    padding: 4%;
+}
 
 .bloquefooter{
 	display: inline-block;
